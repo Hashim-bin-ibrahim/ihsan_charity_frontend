@@ -1,0 +1,41 @@
+p {
+  color: white !important;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.footer_part p {
+  color: rgb(175, 175, 175);
+}
+
+.account_details {
+  cursor: pointer;
+}
+
+.hadeeth {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.developer_info p {
+  font-size: 10px;
+  color: rgb(94, 90, 90);
+}
+.developer_info span {
+  font-size: 8px;
+  cursor: pointer;
+  color: rgb(175, 175, 175);
+}
+
+@media (max-width: 600px) {
+  .wrapper,
+  .footer_part p {
+    font-size: 10px;
+  }
+}

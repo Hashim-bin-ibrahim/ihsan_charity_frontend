@@ -1,0 +1,152 @@
+.donate_wrapper p {
+  color: black !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.donate {
+  background-color: white;
+  margin: 20px 20px;
+  color: black !important;
+  padding: 20px;
+  border: 2px solid #17b26a;
+  border-radius: 15px;
+
+  height: 100%;
+}
+
+.payment_type {
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.online {
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.blue {
+  background-color: #3371e6;
+}
+.white {
+  background-color: #ffffff;
+}
+
+.cash_on_hand {
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: rgba(40, 40, 83, 0.05) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.amounts {
+  cursor: pointer;
+
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.amount {
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.other_amounts {
+  display: flex;
+  justify-content: center;
+}
+.other_amount {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+button:disabled {
+  background-color: rgb(209, 207, 207);
+  text-decoration: line-through;
+}
+
+.other_amount input {
+  border: none;
+  max-width: 300px;
+
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.transaction_details {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donating_amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selectedAmount {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.selectedAmount p {
+  font-weight: 800;
+  color: black !important;
+}
+
+.selectedAmount span {
+    font-weight: 800;
+    color: #3371e6 !important;
+  }
+
+.button_donate {
+  margin-top: 20px;
+}
+
+.donate_btn {
+  border-radius: 10px;
+  background-color: #3371e6;
+  padding: 10px 20px;
+  max-width: 300px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: rgba(40, 40, 83, 0.05) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.add_comment {
+  margin-top: 20px;
+}
+
+.add_comment button {
+  border-bottom: 2px solid black;
+}
