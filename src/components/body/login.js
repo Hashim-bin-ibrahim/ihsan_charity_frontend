@@ -39,7 +39,7 @@ export default function Login({ show, setShow }) {
       message.user.isMember == true &&
       message.user.isAdmin == false
     ) {
-      navigate("/home");
+      navigate("/");
     } else if (
       adminLogin &&
       message &&

@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 export default function Header({ user }) {
   console.log("user", user);
   const navigate = useNavigate();
+  
+
   return (
     <div className="header_wrapper">
       <div className="main_header_wrap">
@@ -14,9 +16,9 @@ export default function Header({ user }) {
         <div className="left_header">
           <div className="signup">
             {user?.username ? (
-              <h3>Log out</h3>
+              <h3 id="logout-button" onClick={()=>localStorage.clear()}>Log out</h3>
             ) : (
-              <h3 onClick={() => navigate("/login")}> Sign Up</h3>
+              <h3 onClick={() => navigate("/login")}> Log In</h3>
             )}
           </div>
         </div>
